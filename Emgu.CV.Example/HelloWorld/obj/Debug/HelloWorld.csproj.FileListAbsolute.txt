@@ -1,0 +1,17 @@
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x86\concrt140.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x86\cvextern.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x86\msvcp140.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x86\opencv_videoio_ffmpeg420.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x86\vcruntime140.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x64\concrt140.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x64\cvextern.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x64\msvcp140.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x64\opencv_videoio_ffmpeg420_64.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\x64\vcruntime140.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\Example.HelloWorld.exe.config
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\Example.HelloWorld.exe
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\bin\Example.HelloWorld.pdb
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.Example\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.Example\HelloWorld\obj\Debug\HelloWorld.csproj.CopyComplete
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.Example\HelloWorld\obj\Debug\Example.HelloWorld.exe
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.Example\HelloWorld\obj\Debug\Example.HelloWorld.pdb

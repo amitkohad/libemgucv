@@ -1,0 +1,9 @@
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\libs\Build\Emgu.CV.World.NetStandard\AnyCPU\Debug\Emgu.CV.World.NetStandard.xml
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\libs\Build\Emgu.CV.World.NetStandard\AnyCPU\Debug\Emgu.CV.World.NetStandard.deps.json
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\libs\Build\Emgu.CV.World.NetStandard\AnyCPU\Debug\Emgu.CV.World.NetStandard.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\libs\Build\Emgu.CV.World.NetStandard\AnyCPU\Debug\Emgu.CV.World.NetStandard.pdb
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.World\Netstandard\obj\Debug\Emgu.CV.World.Netstandard.csprojAssemblyReference.cache
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.World\Netstandard\obj\Debug\Emgu.CV.World.Netstandard.AssemblyInfoInputs.cache
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.World\Netstandard\obj\Debug\Emgu.CV.World.Netstandard.AssemblyInfo.cs
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.World\Netstandard\obj\Debug\Emgu.CV.World.NetStandard.dll
+D:\Work\repo\poc\libemgucv-windesktop-4.2.0.3636\Emgu.CV.World\Netstandard\obj\Debug\Emgu.CV.World.NetStandard.pdb

@@ -1,0 +1,1054 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Emgu.TF/1.15.0.787": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Models/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Protobuf/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]",
+          "Google.Protobuf": "[3.8.0]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.runtime.windows/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "build": {
+          "build/Emgu.TF.runtime.windows.targets": {}
+        }
+      },
+      "Google.Protobuf/3.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "System.Drawing.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Drawing.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Drawing.Primitives.dll": {}
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.ComponentModel.Composition",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      },
+      "Emgu.CV.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Emgu.CV.World.NetStandard": "1.0.0",
+          "ZedGraph": "5.1.7"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        }
+      },
+      "Emgu.CV.World.NetStandard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Primitives": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Emgu.TF/1.15.0.787": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Models/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Protobuf/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]",
+          "Google.Protobuf": "[3.8.0]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.runtime.windows/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "build": {
+          "build/Emgu.TF.runtime.windows.targets": {}
+        }
+      },
+      "Google.Protobuf/3.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "System.Drawing.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Drawing.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Drawing.Primitives.dll": {}
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.ComponentModel.Composition",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      },
+      "Emgu.CV.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Emgu.CV.World.NetStandard": "1.0.0",
+          "ZedGraph": "5.1.7"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        }
+      },
+      "Emgu.CV.World.NetStandard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Primitives": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Emgu.TF/1.15.0.787": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Models/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Protobuf/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]",
+          "Google.Protobuf": "[3.8.0]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.runtime.windows/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "build": {
+          "build/Emgu.TF.runtime.windows.targets": {}
+        }
+      },
+      "Google.Protobuf/3.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "System.Drawing.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Drawing.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Drawing.Primitives.dll": {}
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.ComponentModel.Composition",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      },
+      "Emgu.CV.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Emgu.CV.World.NetStandard": "1.0.0",
+          "ZedGraph": "5.1.7"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        }
+      },
+      "Emgu.CV.World.NetStandard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Primitives": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Emgu.TF/1.15.0.787": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Models/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Protobuf/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]",
+          "Google.Protobuf": "[3.8.0]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.runtime.windows/1.15.0.787": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF": "[1.15.0.787]"
+        },
+        "build": {
+          "build/Emgu.TF.runtime.windows.targets": {}
+        }
+      },
+      "Google.Protobuf/3.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "System.Drawing.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Drawing.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Drawing.Primitives.dll": {}
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.ComponentModel.Composition",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      },
+      "Emgu.CV.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Emgu.CV.World.NetStandard": "1.0.0",
+          "ZedGraph": "5.1.7"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.UI.dll": {}
+        }
+      },
+      "Emgu.CV.World.NetStandard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Primitives": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emgu.CV.World.NetStandard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emgu.TF/1.15.0.787": {
+      "sha512": "mCjifVG7CwEjlWx9auQ307qmmB1gRoPCC9DmEUzo3qr6MsksIiG22gG/69cNblf1+uau94yffJftTKVe+VWH1A==",
+      "type": "package",
+      "path": "emgu.tf/1.15.0.787",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.TF.License.txt",
+        "emgu.tf.1.15.0.787.nupkg.sha512",
+        "emgu.tf.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Emgu.TF.Netstandard.dll",
+        "lib/netstandard2.0/Emgu.TF.Netstandard.xml"
+      ]
+    },
+    "Emgu.TF.Models/1.15.0.787": {
+      "sha512": "CnmzCFX/Cdu7VsO2NCnalscI+wL4EwnNK9erimD34LQvG20GAaok0LFvVyEPKVq39FdVD7Y4MvJNy0xsPXvINQ==",
+      "type": "package",
+      "path": "emgu.tf.models/1.15.0.787",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.TF.License.txt",
+        "emgu.tf.models.1.15.0.787.nupkg.sha512",
+        "emgu.tf.models.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Emgu.TF.Models.Netstandard.dll",
+        "lib/netstandard2.0/Emgu.TF.Models.Netstandard.xml"
+      ]
+    },
+    "Emgu.TF.Protobuf/1.15.0.787": {
+      "sha512": "wO4aMb5nQ+9tnuVP4zIO4+uGuCnKw9uMGfowwyxosTpaMmpO9drS30ELkL60vBLkBBMXynZ+yv10SGC+CXNczQ==",
+      "type": "package",
+      "path": "emgu.tf.protobuf/1.15.0.787",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.TF.License.txt",
+        "emgu.tf.protobuf.1.15.0.787.nupkg.sha512",
+        "emgu.tf.protobuf.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.dll",
+        "lib/netstandard2.0/Emgu.TF.Protobuf.Netstandard.xml"
+      ]
+    },
+    "Emgu.TF.runtime.windows/1.15.0.787": {
+      "sha512": "npPluJtT1fNU1DzuDH1BCxAc3dwgTrZQnMjXpXZ2NWBHBnndmU1Tm+N6FWfZSa+d2Eo5/hSBGZnHCuS1LNlujA==",
+      "type": "package",
+      "path": "emgu.tf.runtime.windows/1.15.0.787",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.TF.License.txt",
+        "build/Emgu.TF.runtime.windows.targets",
+        "build/x64/concrt140.dll",
+        "build/x64/msvcp140.dll",
+        "build/x64/msvcp140_1.dll",
+        "build/x64/msvcp140_2.dll",
+        "build/x64/tfextern.dll",
+        "build/x64/vccorlib140.dll",
+        "build/x64/vcruntime140.dll",
+        "emgu.tf.runtime.windows.1.15.0.787.nupkg.sha512",
+        "emgu.tf.runtime.windows.nuspec",
+        "icon.png"
+      ]
+    },
+    "Google.Protobuf/3.8.0": {
+      "sha512": "BFgHpY9TySZWcC5FWfNio54kBx75VlgLY1uGVyYmn80xUew794FP8YHLrEuf+lEQSYT1IVyigvsAOZv+ZQkf+g==",
+      "type": "package",
+      "path": "google.protobuf/3.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.8.0.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/netstandard1.0/Google.Protobuf.dll",
+        "lib/netstandard1.0/Google.Protobuf.pdb",
+        "lib/netstandard1.0/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "System.Drawing.Primitives/4.3.0": {
+      "sha512": "1QU/c35gwdhvj77fkScXQQbjiVAqIL3fEYn/19NE0CV/ic5TN5PyWAft8HsrbRd4SBLEoErNCkWSzMDc0MmbRw==",
+      "type": "package",
+      "path": "system.drawing.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/System.Drawing.Primitives.dll",
+        "lib/netstandard1.1/System.Drawing.Primitives.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Drawing.Primitives.dll",
+        "ref/netstandard1.1/System.Drawing.Primitives.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.drawing.primitives.4.3.0.nupkg.sha512",
+        "system.drawing.primitives.nuspec"
+      ]
+    },
+    "System.Runtime/4.3.1": {
+      "sha512": "abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
+      "type": "package",
+      "path": "system.runtime/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.dll",
+        "lib/portable-net45+win8+wp80+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.0/System.Runtime.dll",
+        "ref/netstandard1.0/System.Runtime.xml",
+        "ref/netstandard1.0/de/System.Runtime.xml",
+        "ref/netstandard1.0/es/System.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.xml",
+        "ref/netstandard1.0/it/System.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.2/System.Runtime.dll",
+        "ref/netstandard1.2/System.Runtime.xml",
+        "ref/netstandard1.2/de/System.Runtime.xml",
+        "ref/netstandard1.2/es/System.Runtime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.xml",
+        "ref/netstandard1.2/it/System.Runtime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.3/System.Runtime.dll",
+        "ref/netstandard1.3/System.Runtime.xml",
+        "ref/netstandard1.3/de/System.Runtime.xml",
+        "ref/netstandard1.3/es/System.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Runtime.xml",
+        "ref/netstandard1.3/it/System.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.5/System.Runtime.dll",
+        "ref/netstandard1.5/System.Runtime.xml",
+        "ref/netstandard1.5/de/System.Runtime.xml",
+        "ref/netstandard1.5/es/System.Runtime.xml",
+        "ref/netstandard1.5/fr/System.Runtime.xml",
+        "ref/netstandard1.5/it/System.Runtime.xml",
+        "ref/netstandard1.5/ja/System.Runtime.xml",
+        "ref/netstandard1.5/ko/System.Runtime.xml",
+        "ref/netstandard1.5/ru/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.xml",
+        "ref/portable-net45+win8+wp80+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.1.nupkg.sha512",
+        "system.runtime.nuspec"
+      ]
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+      "sha512": "cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
+      "type": "package",
+      "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/win8/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/wpa81/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+        "system.runtime.interopservices.runtimeinformation.nuspec"
+      ]
+    },
+    "ZedGraph/5.1.7": {
+      "sha512": "TcZaInxUjYMJDWIaYvs/CgpssfVJQMqiry8GPP70klyheP4tYSQXFWi5HYwJvqao+epeUu3bsk3yDb3Nf/hVWw==",
+      "type": "package",
+      "path": "zedgraph/5.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/License-LGPL.txt",
+        "lib/net35-Client/ZedGraph.XML",
+        "lib/net35-Client/ZedGraph.dll",
+        "lib/net35-Client/de/ZedGraph.resources.dll",
+        "lib/net35-Client/es/ZedGraph.resources.dll",
+        "lib/net35-Client/fr/ZedGraph.resources.dll",
+        "lib/net35-Client/hu/ZedGraph.resources.dll",
+        "lib/net35-Client/it/ZedGraph.resources.dll",
+        "lib/net35-Client/ja/ZedGraph.resources.dll",
+        "lib/net35-Client/pt/ZedGraph.resources.dll",
+        "lib/net35-Client/ru/ZedGraph.resources.dll",
+        "lib/net35-Client/sk/ZedGraph.resources.dll",
+        "lib/net35-Client/sv/ZedGraph.resources.dll",
+        "lib/net35-Client/tr/ZedGraph.resources.dll",
+        "lib/net35-Client/zh-cn/ZedGraph.resources.dll",
+        "lib/net35-Client/zh-tw/ZedGraph.resources.dll",
+        "zedgraph.5.1.7.nupkg.sha512",
+        "zedgraph.nuspec"
+      ]
+    },
+    "Emgu.CV.UI/1.0.0": {
+      "type": "project",
+      "path": "../../Emgu.CV.UI/Emgu.CV.UI.csproj",
+      "msbuildProject": "../../Emgu.CV.UI/Emgu.CV.UI.csproj"
+    },
+    "Emgu.CV.World.NetStandard/1.0.0": {
+      "type": "project",
+      "path": "../../Emgu.CV.World/Netstandard/Emgu.CV.World.Netstandard.csproj",
+      "msbuildProject": "../../Emgu.CV.World/Netstandard/Emgu.CV.World.Netstandard.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "EMGU.TF >= 1.15.0.787",
+      "EMGU.TF.MODELS >= 1.15.0.787",
+      "EMGU.TF.PROTOBUF >= 1.15.0.787",
+      "Emgu.CV.UI >= 1.0.0",
+      "Emgu.CV.World.NetStandard >= 1.0.0",
+      "Emgu.TF.runtime.windows >= 1.15.0.787"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\amit_\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\Emgu.CV.Example\\TFInterop\\TFInterop.csproj",
+      "projectName": "TFInterop",
+      "projectPath": "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\Emgu.CV.Example\\TFInterop\\TFInterop.csproj",
+      "packagesPath": "C:\\Users\\amit_\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\Emgu.CV.Example\\TFInterop\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\NuGet.Config",
+        "C:\\Users\\amit_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\Emgu.CV.UI\\Emgu.CV.UI.csproj": {
+              "projectPath": "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\Emgu.CV.UI\\Emgu.CV.UI.csproj"
+            },
+            "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\Emgu.CV.World\\Netstandard\\Emgu.CV.World.Netstandard.csproj": {
+              "projectPath": "D:\\Work\\repo\\poc\\libemgucv-windesktop-4.2.0.3636\\Emgu.CV.World\\Netstandard\\Emgu.CV.World.Netstandard.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "EMGU.TF": {
+            "target": "Package",
+            "version": "[1.15.0.787, )"
+          },
+          "EMGU.TF.MODELS": {
+            "target": "Package",
+            "version": "[1.15.0.787, )"
+          },
+          "EMGU.TF.PROTOBUF": {
+            "target": "Package",
+            "version": "[1.15.0.787, )"
+          },
+          "Emgu.TF.runtime.windows": {
+            "target": "Package",
+            "version": "[1.15.0.787, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
